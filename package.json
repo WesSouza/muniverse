@@ -3,8 +3,17 @@
     "muniverse": "bin/muniverse.js"
   },
   "description": "connects to muniverse",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
   "license": "UNLICENSED",
   "main": "bin/muniverse.js",
   "name": "muniverse",
+  "scripts": {
+    "build": "parcel build src/web/index.html",
+    "parcel-watch": "parcel src/web/index.html"
+  },
   "version": "0.0.0"
 }
